@@ -4,4 +4,10 @@
 
     <item android:id="@+id/menuMainSettings" android:title="Settings" android:orderInCategory="100" app:showAsAction="never" />
 
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuMainRed" android:orderInCategory="1" app:showAsAction="never" android:title="Red" />
+        <item android:id="@+id/menuMainGreen" android:orderInCategory="2" app:showAsAction="never" android:title="Green" />
+        <item android:id="@+id/menuMainYellow" android:orderInCategory="3" app:showAsAction="never" android:title="Yellow" />
+    </group>
+
 </menu>
